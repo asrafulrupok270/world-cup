@@ -13,7 +13,7 @@ body{
     margin-left: 70px;
     margin-top: 60px;
     padding: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     width: 80%
 }
 .world-cup-info{
@@ -34,36 +34,21 @@ body{
 .box-match{
     display: flex;
     justify-content: space-around;
-}
-/* .box{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    box-shadow: 0px 0px 12px black;
-    background-color: black;
-} */
-.thumnail{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    row-gap: 30px;
-    column-gap: 20px;
     margin-left: 20px;
-     
- 
 }
-.box{
-       border: 5px solid black;
-    
+  .box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+    border: 5px solid black; 
     padding:0px 20px;
-    margin-bottom: 350px;
-    background-color: black;
+    height: 250px;   
     margin-left: 20px; 
-   
-    
     background: #161616;
     border-radius: 10px;
-  */
-
-}
+}  
+ 
+ 
+/*  */
 /* .box{
     margin-left: 30px;
     border: 5px solid black;
@@ -105,18 +90,55 @@ body{
 
  }
  .fa-regular{
-    color:  gold;
+    color:  gray;
     margin-right: 15px;
+     
  }
+ .thumnail{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+   
+    width: 70%;
+
+     
+ 
+}
  .thumnail button{
-text-transform: capitalize;
-padding: 2px 16px;
- }
+    text-transform: capitalize;
+    padding: 2px 16px;
+     }
  .match{
     box-shadow: 0px 0px 12px gray;
     padding: 20px;
+    border-radius: 10px;
+
    
  }
+ .match img{
+    width: 100%;
+    margin-bottom: 10px;
+ }
+  
+ .view{
+    display: none;
+    text-align: center;
+    margin-top:50px ;
+ }
+ .view button{
+
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border:  1px solid red;
+ }
+
+ /* footer start  */
  footer{
     margin-top: 100px;
     padding: 50px;
@@ -129,4 +151,51 @@ padding: 2px 16px;
     text-transform: capitalize;
     font-size: 13px;
  }
- 
+ .social{
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+ }
+ .social,.fb,.insta,.whatts{
+    margin-right: 20px;
+ }
+ /* footer end  */
+
+ /* for mobile view  */
+ @media screen  and (max-width:480px){
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .thumnail{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .social{
+flex-direction: column;
+    }
+    span{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box-match{
+        flex-direction: column;
+        margin-left: 60px;
+    }
+ }
+
+ /* for i-pad view  */
+ @media screen  and (min-width:481px) and (max-width:768px){
+    .thumnail{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .box-match{
+        flex-direction: column;
+        margin-left: 60px;
+    }
+   .box{
+    display: flex;
+   }
+   .view{
+    display: block;
+   }
+ }
