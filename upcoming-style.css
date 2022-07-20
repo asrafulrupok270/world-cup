@@ -160,3 +160,56 @@ footer{
     margin-right: 20px;
  }
  /* footer end  */
+
+ 
+ /* for mobile view  */
+ @media screen  and (max-width:480px){
+    .banner{
+        flex-direction: column-reverse;
+        margin-left: 30;
+        padding: 20px;
+    }
+    .thumnail{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    span{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box-match{
+        flex-direction: column;
+        margin-left: 60px;
+        
+        
+       
+    }
+ }
+  /* for i-pad view  */
+  @media screen  and (min-width:481px) and (max-width:768px){
+    .thumnail{
+        grid-template-columns: repeat(2,1fr);
+    
+        margin-top: 30px;
+        width: 100%;
+    }
+    .box-match{
+        flex-direction: column;
+        margin-right: 80px;
+       
+    }
+   .box{
+    display: flex;
+    height: 70px;
+    
+   }
+   .view{
+    display: block;
+   }
+   footer{
+    margin-right: 25px;
+    
+   }
+ }

@@ -170,9 +170,7 @@ body{
     .thumnail{
         grid-template-columns: repeat(1,1fr);
     }
-    .social{
-flex-direction: column;
-    }
+  
     span{
         display: grid;
         grid-template-columns: repeat(1,1fr);
