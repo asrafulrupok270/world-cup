@@ -1,0 +1,63 @@
+.banner{
+    display: flex;
+   
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 60px;
+    padding: 50px;
+    margin-bottom: 100px;
+    width: 80%
+}
+world-cup-info{
+    margin-left: 30px;
+}
+.world-cup-info h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.world-cup-info button{
+    padding: 8px 28px;
+    border-radius: 5px ;
+    background-color: rgb(230, 85, 85);
+    border: 1px solid rgb(230, 85, 85);
+    color: white;
+    font-weight: 700;
+}
+.box-match{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+  .box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+    border: 5px solid black; 
+    padding:0px 20px;
+    height: 250px;   
+    margin-left: 20px; 
+    background: #161616;
+    border-radius: 10px;
+}  
+.upcoming-match button{
+    padding: 8px 20px; 
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+ 
+   
+ 
+ .blog button{
+    background-color: brown;
+    padding: 8px 12px; 
+    color: white;
+    border: 1px solid brown;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+ }
+  
