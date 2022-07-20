@@ -89,11 +89,11 @@ body{
     border-radius: 5px;
 
  }
- .fa-regular{
+.fa-regular{
     color:  gray;
     margin-right: 15px;
      
- }
+ } 
  .thumnail{
     display: grid;
     grid-template-columns: repeat(3,1fr);

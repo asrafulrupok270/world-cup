@@ -60,4 +60,45 @@ world-cup-info{
     border-radius: 5px;
 
  }
+ .fa-regular{
+    color:  gray;
+    margin-right: 15px;
+     
+ } 
+ .thumnail{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+   
+    width: 70%;
+
+     
+ 
+}
+ .thumnail button{
+    text-transform: capitalize;
+    padding: 2px 16px;
+     }
+ .match{
+    box-shadow: 0px 0px 12px gray;
+    padding: 20px;
+    border-radius: 10px;
+
+   
+ }
+ .match img{
+    width: 100%;
+    margin-bottom: 10px;
+ }
+ .match-1{
+    display: flex;
+    justify-content: space-between;
+ }
+.match-1 img{
+    margin-right: 15px;
   
+}
+.vs{
+    margin-right: 15px;
+}
