@@ -17,6 +17,29 @@ body{
     margin-bottom: 100px;
     width: 80%
 }
+.container{
+    perspective: 320px;
+  }
+  .btn{
+    display: block;
+    width: 250px;
+    height: 40px;
+    background-color: 
+      #DD0000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+  }
+  .btn:hover{
+      transform: rotateY(-15deg);
+      box-shadow: 0 8px 15px black;
+      background-color: darkcyan;
+  }
+  
 .world-cup-info{
     margin-left: 30px;
 }
@@ -196,7 +219,7 @@ footer{
     }
    
  }
- 
+
   /* for i-pad view  */
   @media screen  and (min-width:481px) and (max-width:768px){
     
