@@ -48,45 +48,43 @@ body{
 }  
  
  
-/*  */
-/* .box{
-    margin-left: 30px;
-    border: 5px solid black;
-    width: 350px;
-    height: 250px;
-  
-    
-}
-.box a {
-    text-decoration: none;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    color:black;
-    border: 1px solid black;
-    margin-top: 20px;
-    padding: 2px 20px;
-    width: 100px;
-    height: 50px;
-    
-} */
+ 
 .upcoming-match button{
-    padding: 8px 20px; 
+    padding: 15px 21px; 
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid brown;
+     
+    color: white;
+    border: 1px solid brown;
+}
+.upcoming-match button a{
+    text-decoration: none;
+    color:black;
+}
+.qualifying button{
+    padding: 15px 28px; 
     font-weight: 700;
     text-transform: capitalize;
     border-radius: 5px;
     border: 1px solid white;
-}
+    
+    color:black;
+     
+ }
  
    
  
  .blog button{
-    background-color: brown;
-    padding: 8px 12px; 
+  
+    padding: 15px 20px; 
     color: white;
-    border: 1px solid brown;
+    border: 1px solid red;
     font-weight: 700;
     text-transform: capitalize;
     border-radius: 5px;
+    background-color: red;
 
  }
 .fa-regular{

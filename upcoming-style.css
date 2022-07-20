@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+ 
+body{
+    font-family: 'Poppins', sans-serif;
+ ;
+}
+
 .banner{
     display: flex;
    
@@ -41,24 +48,37 @@ world-cup-info{
     border-radius: 10px;
 }  
 .upcoming-match button{
-    padding: 8px 20px; 
+    padding: 15px 28px; 
     font-weight: 700;
     text-transform: capitalize;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
 }
  
    
  
  .blog button{
-    background-color: brown;
-    padding: 8px 12px; 
-    color: white;
-    border: 1px solid brown;
+  
+    padding: 15px 20px; 
+    color: black;
+    border: 1px solid black;
     font-weight: 700;
     text-transform: capitalize;
     border-radius: 5px;
 
+ }
+ .qualifying button{
+    padding: 15px 28px; 
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+    color:black;
+     
  }
  .fa-regular{
     color:  gray;
@@ -68,8 +88,8 @@ world-cup-info{
  .thumnail{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: 30px;
+    column-gap: 30px;
    
     width: 70%;
 
@@ -100,5 +120,43 @@ world-cup-info{
   
 }
 .vs{
-    margin-right: 15px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 15px;
 }
+.match-info h3{
+font-size: 15px;
+text-align: center;
+font-weight: 700;
+}
+.match-info p{
+font-size: 12px;
+text-align: center;
+color: rgb(102, 86, 86);
+font-weight: 700;
+}
+
+
+/* footer start  */
+footer{
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+ }
+ span{
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-size: 13px;
+ }
+ .social{
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+ }
+ .social,.fb,.insta,.whatts{
+    margin-right: 20px;
+ }
+ /* footer end  */
