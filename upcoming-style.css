@@ -17,7 +17,7 @@ body{
     margin-bottom: 100px;
     width: 80%
 }
-world-cup-info{
+.world-cup-info{
     margin-left: 30px;
 }
 .world-cup-info h1{
@@ -31,6 +31,10 @@ world-cup-info{
     border: 1px solid rgb(230, 85, 85);
     color: white;
     font-weight: 700;
+}
+.world-cup-info button:hover{
+     background-color: yellow;
+     color: black;
 }
 .box-match{
     display: flex;
@@ -129,6 +133,7 @@ font-size: 15px;
 text-align: center;
 font-weight: 700;
 }
+ 
 .match-info p{
 font-size: 12px;
 text-align: center;
