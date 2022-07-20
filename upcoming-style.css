@@ -17,6 +17,13 @@ body{
     margin-bottom: 100px;
     width: 80%
 }
+.banner-img:hover{
+    transform: scale(1.2);
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+} 
 .container{
     perspective: 320px;
   }

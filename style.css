@@ -17,7 +17,7 @@ body{
     margin-bottom: 100px;
     width: 80%
 }
-.watch-btn{
+.container{
   perspective: 320px;
 }
 .btn{
@@ -35,7 +35,7 @@ body{
   transition: .3s linear;
 }
 .btn:hover{
-    transform: rotateY(-15deg);
+    transform: rotateX(20deg);
     box-shadow: 0 8px 15px black;
     background-color: darkcyan;
 }
