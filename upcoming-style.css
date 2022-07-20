@@ -23,8 +23,10 @@ body{
 .world-cup-info h1{
     font-size: 40px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 .world-cup-info button{
+    text-transform: capitalize;
     padding: 8px 28px;
     border-radius: 5px ;
     background-color: rgb(230, 85, 85);
@@ -171,13 +173,17 @@ footer{
  @media screen  and (max-width:480px){
     .banner{
         flex-direction: column-reverse;
-        margin-left: 30;
+        margin-left: 20PX;
         padding: 20px;
+    }
+    .world-cup-info h1{
+        font-size: 20px;
     }
     .thumnail{
         grid-template-columns: repeat(1,1fr);
         width: 100%;
         margin-top: 20px;
+       
     }
     
     span{
@@ -191,11 +197,17 @@ footer{
         
        
     }
+    .match{
+        text-align: center;
+       }
  }
   /* for i-pad view  */
   @media screen  and (min-width:481px) and (max-width:768px){
+    
     .thumnail{
         grid-template-columns: repeat(2,1fr);
+        row-gap: 15px;
+        column-gap: 15px;
     
         margin-top: 30px;
         width: 100%;
@@ -210,9 +222,11 @@ footer{
     height: 70px;
     
    }
+  
    .view{
     display: block;
    }
+   
    footer{
     margin-right: 25px;
     

@@ -2,8 +2,9 @@
  
 body{
     font-family: 'Poppins', sans-serif;
- ;
+ 
 }
+ /* banner section css start */
 .banner{
     display: flex;
    
@@ -20,10 +21,12 @@ body{
     margin-left: 30px;
 }
 .world-cup-info h1{
+    text-transform: capitalize;
     font-size: 40px;
     font-weight: 700;
 }
 .world-cup-info button{
+    text-transform: capitalize;
     padding: 8px 28px;
     border-radius: 5px ;
     background-color: rgb(230, 85, 85);
@@ -31,6 +34,9 @@ body{
     color: white;
     font-weight: 700;
 }
+/* banner section css end  */
+
+ /* box and live match schedule section start   */
 .box-match{
     display: flex;
     justify-content: space-around;
@@ -87,6 +93,9 @@ body{
     background-color: red;
 
  }
+ /* box and live match schedule section end  */
+
+ /* thumnail clss start  */
 .fa-regular{
     color:  gray;
     margin-right: 15px;
@@ -118,7 +127,8 @@ body{
     width: 100%;
     margin-bottom: 10px;
  }
-  
+
+ /* special button css start which show only i-pad   */
  .view{
     display: none;
     text-align: center;
@@ -135,6 +145,7 @@ body{
     color: white;
     border:  1px solid red;
  }
+  /* special button css end which show only i-pad   */
 
  /* footer start  */
  footer{
@@ -160,15 +171,22 @@ body{
  }
  /* footer end  */
 
- /* for mobile view  */
+
+ /* for mobile view -------- */
  @media screen  and (max-width:480px){
+   
     .banner{
         flex-direction: column-reverse;
-        margin-left: 30;
+        margin-left: 30px;
         padding: 20px;
+    }
+    .world-cup-info h1{
+       font-size: 30px;
     }
     .thumnail{
         grid-template-columns: repeat(1,1fr);
+        margin-top: 20px;
+        width: 80%;
     }
   
     span{
@@ -179,14 +197,21 @@ body{
         flex-direction: column;
         margin-left: 60px;
     }
+    /* .box{
+        
+        width: 180px;
+        margin-bottom: 40px;
+
+    } */
  }
 
  /* for i-pad view  */
  @media screen  and (min-width:481px) and (max-width:768px){
+     
     .thumnail{
         grid-template-columns: repeat(2,1fr);
-        margin-left: 20px;
-        margin-top: 20px;
+         margin-top: 20px;
+       
     }
     .box-match{
         flex-direction: column;
@@ -194,13 +219,12 @@ body{
     }
    .box{
     display: flex;
-    height: 70px;
     
    }
    .view{
     display: block;
    }
    footer{
-    margin-left: 25px;
+ width: 100%;
    }
  }
