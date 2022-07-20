@@ -169,23 +169,23 @@ footer{
  /* footer end  */
 
  
- /* for mobile view  */
+ /* for mobile view -------- */
  @media screen  and (max-width:480px){
+   
     .banner{
         flex-direction: column-reverse;
-        margin-left: 20PX;
+        margin-left: 30px;
         padding: 20px;
     }
     .world-cup-info h1{
-        font-size: 20px;
+       font-size: 30px;
     }
     .thumnail{
         grid-template-columns: repeat(1,1fr);
-        width: 100%;
         margin-top: 20px;
-       
+        width: 80%;
     }
-    
+  
     span{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -193,14 +193,10 @@ footer{
     .box-match{
         flex-direction: column;
         margin-left: 60px;
-        
-        
-       
     }
-    .match{
-        text-align: center;
-       }
+   
  }
+ 
   /* for i-pad view  */
   @media screen  and (min-width:481px) and (max-width:768px){
     
